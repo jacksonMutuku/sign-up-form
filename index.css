@@ -1,0 +1,74 @@
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.odin-image {
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+.logo{
+    align-items: center;
+    top: 20vh; 
+   
+    padding: 15px 0; 
+   
+}
+.input-section {
+    flex: 1; 
+}
+
+.form-section{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.form-title{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.input {
+    display: row;
+} 
+.input:nth-child(even) {
+    order: 1; 
+}
+
+.input label,
+.input input {
+    width: 100%; /* Each input takes full width within its container */
+    margin-bottom: 10px; /* Vertical spacing between inputs */
+}
+
+
+.error{
+    border: 2px solid #ff0000; 
+}
+
+
+.error-message{
+    color: #ff0000; 
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button{
+    background-color: #596D48;
+}
+
